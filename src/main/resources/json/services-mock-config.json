@@ -1,0 +1,32 @@
+[
+  {
+    "method":"POST",
+    "path": "/coffee-shop/products",
+    "statusCode": 201,
+    "responseBody": "your response body for POST on\"/coffee-shop/products\""
+  },
+  {
+    "method":"GET",
+    "path": "/coffee-shop/products",
+    "statusCode": 200,
+    "responseBody": "your response body for GET on\"/coffee-shop/products\""
+  },
+  {
+    "method":"GET",
+    "path": "/coffee-shop/products/2",
+    "statusCode": 200,
+    "responseBody": "your response body for GET on\"/coffee-shop/products/2\""
+  },
+  {
+    "method":"PUT",
+    "path": "/coffee-shop/products/4",
+    "statusCode": 202,
+    "responseBody": "your response body for PUT on\"/coffee-shop/products/4\""
+  },
+  {
+    "method":"PATCH",
+    "path": "/coffee-shop/products/3",
+    "statusCode": 202,
+    "responseBody": "your response body for PATCH on\"/coffee-shop/products/3\""
+  }
+]
